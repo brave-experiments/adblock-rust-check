@@ -1,0 +1,28 @@
+{
+  "name": "adblock-rust-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "adblock-rs": "^0.1.11",
+    "commander": "^2.20.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brave-experiments/adblock-rust-check.git"
+  },
+  "author": "Brian R. Bondy <bbondy@gmail.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/brave-experiments/adblock-rust-check/issues"
+  },
+  "homepage": "https://github.com/brave-experiments/adblock-rust-check#readme"
+}
