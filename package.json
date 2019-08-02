@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "adblock-rs": "^0.1.11",
+    "adblock-rs": "^0.1.30",
     "commander": "^2.20.0",
     "request": "^2.88.0"
   },
