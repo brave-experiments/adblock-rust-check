@@ -70,6 +70,8 @@ p.then((adBlockClient) => {
   }
   if (commander.location) {
     console.log('params:', commander.location, commander.filterOption, commander.host)
+    adBlockClient.enableTag('fb-embed')
+    adBlockClient.enableTag('twitter-embed')
     console.log('Matches: ', adBlockClient.check(
       commander.location,
       `https://${commander.host}`,
